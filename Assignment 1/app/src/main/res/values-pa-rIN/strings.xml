@@ -1,0 +1,15 @@
+
+<resources>
+    <string name="app_name">ਮਾਈ ਫਰਸਟ</string> 
+    <string name="hello_message">ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ਦੁਨਿਆ</string> 
+    <string name="ChangeLanguage">ਭਾਸ਼ਾ ਬਦਲੋ</string> 
+    <string name="Login">ਲਾਗਿਨ</string>
+    <string name="Password">ਪਾਸਵਰਡ</string>
+    <string name="RadioButton">ਰੇਡੀਓ ਬਟਨ</string>
+    <string name="CheckBox">ਚੈੱਕ ਬਾਕਸ</string>
+    <string name="Switch">ਇਹ ਕੀ ਕਰਦਾ ਹੈ?</string>
+    <string name="ImageButton"></string>
+    <string name="LoginName">ਲਾਗਇਨ ਨਾਮ</string>
+
+
+</resources>
