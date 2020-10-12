@@ -10,6 +10,15 @@
     <string name="Switch">ਇਹ ਕੀ ਕਰਦਾ ਹੈ?</string>
     <string name="ImageButton"></string>
     <string name="LoginName">ਲਾਗਇਨ ਨਾਮ</string>
+    <string name="yes_label">YES</string>
+    <string name="no_label">NO</string>
+    <string name="confirm_label">CONFIRM</string>
+    <string name="switchActivity">Do you want to switch to the other Activity?</string>
+    <string name="response_label">Response</string>
+    <string name="yourResponse_label">Here is your response.</string>
+    <string name="switchON_label">SWITCH IS ON</string>
+    <string name="switchOFF_label">SWITCH IS OFF</string>
+    <string name="noPermission_label">You didn\'t give permission!</string>
 
 
 </resources>
