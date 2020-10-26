@@ -19,6 +19,8 @@
     <string name="switchON_label">SWITCH IS ON</string>
     <string name="switchOFF_label">SWITCH IS OFF</string>
     <string name="noPermission_label">You didn\'t give permission!</string>
+    <string name="start_chat">Start Chat</string>
+    <string name="send">send</string>
 
 
 </resources>

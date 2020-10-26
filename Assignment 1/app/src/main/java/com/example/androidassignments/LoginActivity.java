@@ -16,7 +16,8 @@ public class LoginActivity extends AppCompatActivity {
 
     protected static final String ACTIVITY_NAME = "LoginActivity";
     private String sharedPreferencesFile = "com.example.androidassignments.sharedpreferencesfile";
-    private Button LoginButton;
+    //private Button LoginButton;
+    private Button loginButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +25,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         Log.i(ACTIVITY_NAME,"In onCreate()");
 
-        LoginButton = findViewById(R.id.loginButton);
+        loginButton = findViewById(R.id.login_button);
         emailAddress = findViewById(R.id.email);
 
         Intent intent = new Intent(LoginActivity.this, MainActivity.class);
@@ -38,20 +39,29 @@ public class LoginActivity extends AppCompatActivity {
             emailAddress.setText(userName);
         }
 
-        LoginButton.setOnClickListener(new View.OnClickListener()
+//        LoginButton.setOnClickListener(new View.OnClickListener()
+//        {
+//            @Override
+//            public void onClick(View v)
+//            {
+//                String user = emailAddress.getText().toString().trim();
+//                if(!(user.equals("")))
+//                {
+//                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+//                    startActivity(intent);
+//                }
+//            }
+//        });
+
+        loginButton.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
-                String user = emailAddress.getText().toString().trim();
-                if(!(user.equals("")))
-                {
-                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                    startActivity(intent);
-                }
+                Intent listItemsActivity = new Intent(LoginActivity.this, MainActivity.class);
+                startActivityForResult(listItemsActivity, 10);
             }
         });
-
 
 
     }

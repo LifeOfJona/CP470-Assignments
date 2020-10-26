@@ -12,8 +12,9 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     protected static final String ACTIVITY_NAME = "MainActivity";
-    private Button LoginButton;
 
+    private Button chatButton;
+    private Button myButton;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -21,16 +22,22 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.i(ACTIVITY_NAME, "In onCreate()");
 
-        LoginButton = findViewById(R.id.loginButton);
-        LoginButton.setOnClickListener(new View.OnClickListener()
-        {
+
+        myButton = findViewById(R.id.button);
+        myButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v)
-            {
-                Intent listItemsActivity = new Intent(MainActivity.this, ListItemsActivity.class);
-                startActivityForResult(listItemsActivity, 10);
+            public void onClick(View v) {
+                startActivityForResult(new Intent(MainActivity.this, ListItemsActivity.class),10);
             }
         });
+        chatButton = findViewById(R.id.start_chat);
+
+    }
+
+    public void launchChatActivity(View view){
+        Log.i(ACTIVITY_NAME,"User clicked Start Chat");
+        startActivity(new Intent(MainActivity.this, ChatWindow.class));
+
     }
 
     @Override
@@ -50,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
         @Override
         public void onResume () {
             super.onResume();
@@ -61,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onStart () {
             super.onStart();
-            LoginButton = findViewById(R.id.loginButton);
             Log.i(ACTIVITY_NAME,"In onStart()");
 
         }

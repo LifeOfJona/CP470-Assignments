@@ -12,6 +12,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ListItemsActivity" />
         <activity android:name=".MainActivity"/>
+        <activity android:name=".ChatWindow"/>
 
         <activity android:name=".LoginActivity">
             <intent-filter>
