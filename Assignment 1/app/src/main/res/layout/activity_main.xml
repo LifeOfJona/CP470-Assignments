@@ -21,6 +21,7 @@
         tools:layout_editor_absoluteX="147dp"
         tools:layout_editor_absoluteY="423dp" />
 
+
     <Button
         android:id="@+id/start_chat"
         android:onClick="launchChatActivity"
@@ -30,5 +31,10 @@
         tools:layout_editor_absoluteX="147dp"
         tools:layout_editor_absoluteY="423dp" />
 
+    <Button
+        android:id="@+id/test_toolbar_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Toolbar"/>
 
 </LinearLayout>

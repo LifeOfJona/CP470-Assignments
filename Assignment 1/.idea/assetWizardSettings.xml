@@ -25,7 +25,7 @@
                                               <map>
                                                 <entry key="color" value="000000" />
                                                 <entry key="imagePath" value="/private/var/folders/72/4zhp4nkn4lg8gnwcnwp0j84r0000gn/T/baseline_photo_camera_24.xml" />
-                                                <entry key="opacityPercent" value="60" />
+                                                <entry key="opacityPercent" value="80" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -48,7 +48,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="$USER_HOME$/Downloads/122289391_3888683277827489_8210351686390516200_n.png" />
+                                                <entry key="imagePath" value="$USER_HOME$/Downloads/set_msg_icon.png" />
                                                 <entry key="opacityPercent" value="80" />
                                               </map>
                                             </option>
@@ -61,6 +61,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="opacityPercent" value="80" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -72,6 +73,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="opacityPercent" value="80" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -82,10 +84,10 @@
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
-                                      <entry key="imageAsset" value="$USER_HOME$/Downloads/122289391_3888683277827489_8210351686390516200_n.png" />
-                                      <entry key="outputName" value="sym_call_incoming" />
+                                      <entry key="imageAsset" value="$USER_HOME$/Downloads/set_msg_icon.png" />
+                                      <entry key="outputName" value="set_msg_icon" />
                                       <entry key="theme" value="CUSTOM" />
-                                      <entry key="themeColor" value="0036e5" />
+                                      <entry key="themeColor" value="e5008e" />
                                     </map>
                                   </option>
                                 </PersistentState>
